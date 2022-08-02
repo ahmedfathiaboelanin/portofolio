@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* .container{
+    width: 100%;
+    background-color: black;
+} */
+.header{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    margin: 0px;
+    position: relative;
+}
+h1{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+
+}
+.photo img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    left: 550px;
+    top: 200px;
+}
+.photo img:hover{
+    transform: scale(1.4);
+    cursor: -webkit-zoom-in;
+}
+.social img{
+    width: 20px;
+    height: 20px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+.social img:hover{
+    transform: scale(1.3);
+}
+.social{
+    margin-left: 50px;
+}
+.social button{
+    position: absolute;
+    left: 1100px;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(202, 26, 93);
+    color: white;
+    border-radius: 20px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(47, 255, 151);
+    letter-spacing: 1px;
+    border: 1px solid transparent;
+    color: black;
+}
+.content{
+    width: 100%;
+    height: 1200px;
+    /* border: 5px solid black; */
+    background-color: rgb(252, 98, 98);
+}
+ul{
+    position: absolute;
+    top: 500px;
+    left: 350px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(241, 226, 175);
+    font-size: 30px;
+    font-weight: 900;
+}
+li a:hover{
+    letter-spacing: 2px;
+    /* color: rgb(17, 146, 17); */
+    /* border-bottom: 2px solid rgb(0, 0, 0); */
+    transition: .3s;
+}
+li{
+    display: inline-block;
+    margin-left: 30px;
+}
+#about{
+    width: 100%;
+}
+#about p{
+    width: 50%;
+    position: absolute;
+    top: 600px;
+    left: 330px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+#projects div{
+    display: inline-block;
+    margin: 50px;
+    background-color: rgba(255, 15, 7, 0.363);
+    border-radius: 20px;
+    width: 150px;
+    padding: 10px;
+}
+#projects button a{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    font-weight: 500;
+}
+#projects button{
+    height: 40px;
+    width: 180px;
+    background-color: rgb(202, 26, 93);
+    color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top:20px ;
+
+}
+#projects button:hover{
+    cursor: pointer;
+    background-color: rgb(47, 255, 151);
+    letter-spacing: 1px;
+    border: 1px solid transparent;
+    color: black;
+}
+#projects{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 800px;
+    /* background-color: rgb(241, 111, 111); */
+    text-align: center;
+    border-top: solid 2px black;
+}
+#projects p{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+#edu{
+    position: absolute;
+    top: 1100px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+#edu button{
+    height: 40px;
+    width: 180px;
+    background-color: rgb(202, 26, 93);
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#edu button:hover{
+    cursor: pointer;
+    background-color: rgb(47, 255, 151);
+    letter-spacing: 1px;
+    border: 1px solid transparent;
+    color: black
+}
+#edu h2{
+    color: white;
+    margin: 30px;
+}
+#contact{
+    position: absolute;
+    top: 1300px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    border-top: 2px solid white;
+    text-align: center;
+}
+#contact h2{
+    color: white;
+    margin-top: 30px;
+}
+#contact button{
+    height: 40px;
+    width: 180px;
+    background-color: rgb(202, 26, 93);
+    color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top:20px ;
+}
+#contact button:hover{
+    cursor: pointer;
+    background-color: rgb(47, 255, 151);
+    letter-spacing: 1px;
+    border: 1px solid transparent;
+    color: black;
+}
+#face button{
+    background-color: blue;
+}
+#whats button{
+    background-color: rgb(12, 204, 12);
+}
+#gmail button{
+    background-color: red;
+}
